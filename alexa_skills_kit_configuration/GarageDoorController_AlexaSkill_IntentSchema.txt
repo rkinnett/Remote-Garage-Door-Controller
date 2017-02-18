@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "Open"
+    },
+    {
+      "intent": "Close"
+    },
+    {
+      "intent": "Toggle"
+    },
+    {
+      "intent": "CheckStatus"
+    },
+    { 
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+  ]
+}

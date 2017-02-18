@@ -1,0 +1,26 @@
+Open open
+Open to open
+Open to open the door
+Open to open the garage door
+Close close
+Close to close
+Close to close the door
+Close to close the garage door
+Toggle to toggle
+CheckStatus check
+CheckStatus state
+CheckStatus status
+CheckStatus check state
+CheckStatus check status
+CheckStatus to check
+CheckStatus to check state
+CheckStatus to check status
+CheckStatus to check if the garage door is open
+CheckStatus to check if the garage door is closed
+CheckStatus to check if the garage door is open or closed
+CheckStatus to check if the door is open
+CheckStatus to check if the door is closed
+CheckStatus to check if the door is open or closed
+CheckStatus if its open
+CheckStatus if its closed
+CheckStatus if its open or closed
