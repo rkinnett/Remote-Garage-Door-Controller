@@ -14,7 +14,7 @@ const ACCESS_TOKEN = "YOUR_PARTICLE_ACCESS_TOKEN_HERE";
 
 
 
-const APP_ID =  "amzn1.ask.skill.821dc032-43b7-4073-a784-7428c9c6a237";
+const APP_ID =  "YOUR_AMAZON_SKILL_APP_ID";
 //const AlexaSkill = require('alexa-sdk');
 var http = require('https');
 var AlexaSkill = require('./AlexaSkill');
