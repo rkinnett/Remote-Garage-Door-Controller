@@ -1,12 +1,12 @@
 # Remote-Garage-Door-Controller
 Remotely monitor and control your garage door through Particle Cloud, IFTTT, and/or Alexa, for ~$25US.
 
-![Remote Interfaces Diagram](./GarageControllerRemoteInterfaces.jpg?raw=true =250x)
+![Remote Interfaces Diagram](./GarageControllerRemoteInterfaces.jpg?raw=true)
 
 ## Hardware:
 At the heart of this project is a wifi-enabled ESP8266-based [Digistump Oak](http://digistump.com/oak/) MCU ($10), connected to the Particle Cloud.  An [HC-SR04](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=hc-sr04) ultrasonic range finder ($2) attached to the Oak measures distance from the sensor, installed in the rafters or from the ceiling of your garage and pointing downward, to either the rolled-up garage door, your car, or the floor of the garage.  Range measurements are interpreted as one of three states: the garage door is open, the garage door is closed and a car is present, or the garage door is closed and no car is present.  A Digistump [3V Relay Shield](http://digistump.com/products/164) ($7) connects the Oak to your garage door opener's momentary toggle button terminal (in parallel with any existing garage door opener button you already have in your garage).  Optionally add a [DHT11](https://www.adafruit.com/product/386) temperature/humidity sensor ($5), because... why not? 
 
-![Hardware Topology Image](./GarageControllerHardwareLayout.jpg?raw=true =250x)
+![Hardware Topology Image](./GarageControllerHardwareLayout.jpg?raw=true)
 
 
 ## Repository Contents:
@@ -35,7 +35,7 @@ You can also interface the Garage Controller through [Alexa](https://developer.a
 
 ## Deployment procedure:
 1. **Connect the range sensor, relay shield, and (optional) temperature/humidity sensor to the Oak as shown in the attached diagram.**
-![Fritzing Diagram](./GarageDoorController_fritzing.jpg?raw=true =250x)
+![Fritzing Diagram](./GarageDoorController_fritzing.jpg?raw=true)
 2. **Flash the garage_controller.ino to the Oak.**
   * Experiment with range sensor measurements, using OakTerm, the Particle mobile app, etc, to verify general functionality.  
   * You can test the range sensor and sketch prior to installation in your garage.
