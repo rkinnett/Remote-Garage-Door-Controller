@@ -1,0 +1,1 @@
+I added a humidity/temp sensor to this project just because I happened to have one leftover from another project.  You don't need this sensor.  If you don't use one, then you'll need to comment-out the relevant bits of code.  If you do use a DHT sensor then you'll need to get DHT.h and DHT.cpp from here:  https://github.com/adafruit/DHT-sensor-library
